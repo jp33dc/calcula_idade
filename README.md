@@ -1,13 +1,5 @@
-/*
-Huxley
-*/
-#include <stdio.h>
+Projeto de calculadora de idade
 
-int main()
-{
-	int ano_nascimento, ano_atual, idade;
-	scanf("%i%i", &ano_nascimento, &ano_atual);
-	idade = ano_atual - ano_nascimento;
-	printf("%i",idade);
-	return 0;
-}
+O projeto é uma calculadora simples, que ao receber o número correspondente ao ano de nasciemeto, e o ano atual, retorna em idade. 
+
+
